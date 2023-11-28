@@ -145,3 +145,12 @@ a:hover {
     cursor: pointer;
 }
 
+@media screen and (max-width: 500px) {
+    body {
+        background-image: url("images/pattern-background-mobile.svg");
+    }
+
+    .card {
+        width: 350px;
+    }
+}
